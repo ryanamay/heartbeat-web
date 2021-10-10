@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(90deg, #D9DFEC, #D9DFEC, #abf2f7, #ceabf7, #D9DFEC, #D9DFEC);
+    background-size: 600% 100%;
+    animation: gradient 32s linear infinite;
+    animation-direction: normal;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%
+    }
+    100% {
+        background-position: 100%
+    }
+}
+
+#logo {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#status {
+    position: fixed;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+}
+
+#status-text {
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: large;
+}
