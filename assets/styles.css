@@ -25,13 +25,20 @@ body {
 }
 
 
+/* center on screen */
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 /* Heartbeat Logo  */
 
 #logo {
-    position: fixed;
-    left: 40%;
-    top: 40%;
-    transform: translate(-50%, -50%);
+    position: relative;
     animation: animateHeart 2s infinite;
 }
 
